@@ -2,7 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Harmonizing Computer Science and Biology
+
+profile:
+  align: right
+  image: ProfilePhotoBR.png
+  image_circular: false # crops the image to make it circular
+
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
