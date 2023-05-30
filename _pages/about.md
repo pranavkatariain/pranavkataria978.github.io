@@ -6,7 +6,7 @@ subtitle: Harmonizing Computer Science and Biology
 
 profile:
   align: right
-  image: ProfilePhotoBR.png
+  image: ProfilePic.png
   image_circular: false # crops the image to make it circular
 
 
