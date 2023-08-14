@@ -1,12 +1,4 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - pranavkataria978
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - pranavkataria978/Feature_Extraction_By_Finetuning_KimiaNet
