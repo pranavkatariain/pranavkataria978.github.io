@@ -252,11 +252,13 @@ blockquote {
 
 .social {
   text-align: center;
+  display: flex;
+  justify-content: center;
   .contact-icons {
     font-size: 2rem;
     height: 2rem;
     display: flex;
-    width: 7.5rem;
+    width: 11rem;
     justify-content: space-evenly;
     a {
       i::before {
