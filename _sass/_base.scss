@@ -255,6 +255,9 @@ blockquote {
   .contact-icons {
     font-size: 2rem;
     height: 2rem;
+    display: flex;
+    width: 7.5rem;
+    justify-content: space-evenly;
     a {
       i::before {
         color: var(--global-text-color);
