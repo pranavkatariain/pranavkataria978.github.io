@@ -248,12 +248,13 @@ blockquote {
   }
 }
 
-// Social (bottom)
+// Social ( Below the Image )
 
 .social {
   text-align: center;
   .contact-icons {
     font-size: 2rem;
+    height: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
