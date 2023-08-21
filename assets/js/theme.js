@@ -79,7 +79,7 @@ let initTheme = (theme) => {
   setTheme(theme);
 }
 
-const titles = ['a Software Engineer', 'an ML Researcher', 'a Biologist'];
+const titles = [' a Software Engineer ', ' an ML Researcher ', 'a Computational Biologist'];
 let currentIndex = 0;
 
 function changeTitle() {
@@ -100,5 +100,5 @@ function changeTitle() {
     currentIndex = (currentIndex + 1) % titles.length;
 }
 
-setInterval(changeTitle, 5000);
+setInterval(changeTitle, 3000);
 initTheme(localStorage.getItem("theme"));
