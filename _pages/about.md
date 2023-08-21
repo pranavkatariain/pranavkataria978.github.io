@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Harmonizing Computer  Science and Biology
+subtitle: Harmonizing Computer Science and Biology
 
 profile:
   align: right
