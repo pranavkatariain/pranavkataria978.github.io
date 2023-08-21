@@ -100,5 +100,5 @@ function changeTitle() {
     currentIndex = (currentIndex + 1) % titles.length;
 }
 
-setInterval(changeTitle, 3000);
+setInterval(changeTitle, 10000);
 initTheme(localStorage.getItem("theme"));
