@@ -79,5 +79,26 @@ let initTheme = (theme) => {
   setTheme(theme);
 }
 
+const titles = ['a Software Engineer', 'an ML Researcher', 'a Biologist'];
+let currentIndex = 0;
 
+function changeTitle() {
+    const titleElement = document.querySelector('.changeable-title');
+    
+    titleElement.classList.add('fade-out');
+
+    setTimeout(() => {
+        titleElement.textContent = titles[currentIndex];
+        titleElement.classList.remove('fade-out');
+        titleElement.classList.add('fade-in');
+    }, 500);
+
+    setTimeout(() => {
+        titleElement.classList.remove('fade-in');
+    }, 1000);
+
+    currentIndex = (currentIndex + 1) % titles.length;
+}
+
+setInterval(changeTitle, 2000);
 initTheme(localStorage.getItem("theme"));

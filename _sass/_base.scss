@@ -688,7 +688,18 @@ html.transition *:after {
 
 .first-name{
   font-weight: 500!important;
-  // font-style: italic;
+  font-style: italic;
+}
+.changeable-title {
+  transition: opacity 0.5s ease;
+  display: inline;
+  opacity: 1;
+}
+.fade-out {
+  opacity: 0;
+}
+.fade-in {
+  opacity: 1;
 }
 
 progress {
