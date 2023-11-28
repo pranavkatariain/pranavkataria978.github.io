@@ -3,26 +3,15 @@
 
   <!-- Head -->
   <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
-  {% include head.html %}
+
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body style="display: flex; justify-content: center; height: 100vh; width: 100vw;">
 
-    <!-- Header -->
-    <!-- {%- include header.html %} -->
-
-    <!-- Content -->
-    <!-- <div class="container mt-5">
-      {{ content }}
-    </div> -->
-    <img src="/assets/img/Work In Progress.png" alt="Work in Progress">
-
-    <!-- Footer -->
-    <!-- {%- include footer.html %} -->
+    <div style="display: flex; justify-content: center; width: 100%; height: 100%;">
+      <img src="/assets/img/Work In Progress.png" alt="Work in Progress" width="100%" height="100%">
+    </div>
 
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}
